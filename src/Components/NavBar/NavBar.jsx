@@ -1,7 +1,7 @@
 
 const NavBar = () => {
   return (
-    <div className="w-10/12 mx-auto">
+    <div className="w-11/12 mx-auto">
       <div className="navbar-start mt-8 mb-4">
         <div className="dropdown">
           <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
@@ -34,7 +34,7 @@ const NavBar = () => {
             <li><a>Contact</a></li>
           </ul>
         </div>
-        <button className='bg-linear-to-bl from-[#632EE3] to-[#9F62F2] 
+        <button className='btn bg-linear-to-bl from-[#632EE3] to-[#9F62F2] 
           px-4 py-2 rounded text-sm md:text-lg font-semibold text-white cursor-pointer 
           transition-opacity duration-300 hover:opacity-80 '>
           + New Ticket
