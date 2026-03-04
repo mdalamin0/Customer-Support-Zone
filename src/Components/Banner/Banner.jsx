@@ -3,7 +3,7 @@ import vector2 from "../../assets/vector2.png";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-14 ">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-14 w-10/12 mx-auto">
 
       <div className="relative h-[250px] flex flex-col justify-center items-center text-white bg-linear-to-br from-[#632EE3] to-[#9F62F2] rounded-xl overflow-hidden">
         <img

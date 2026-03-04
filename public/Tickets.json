@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account despite resetting the password multiple times.",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed - Card Declined",
+    "description": "Customer attempted to pay using Visa ending in 1234 but the payment keeps failing.",
+    "customer": "Sarah Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-16"
+  },
+  {
+    "id": 1003,
+    "title": "Unable to Download Invoice",
+    "description": "Customer cannot download their January invoice from the billing section.",
+    "customer": "Michael Brown",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2024-01-17"
+  },
+  {
+    "id": 1004,
+    "title": "Incorrect Billing Address",
+    "description": "Customer’s billing address shows an outdated city even after updating profile information.",
+    "customer": "Emily Davis",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": 1005,
+    "title": "Refund Not Processed",
+    "description": "Customer requested a refund 7 days ago but has not received confirmation yet.",
+    "customer": "Daniel Wilson",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2024-01-19"
+  },
+  {
+    "id": 1006,
+    "title": "Subscription Cancellation Issue",
+    "description": "Customer tried cancelling subscription but system still shows active status.",
+    "customer": "Olivia Martinez",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": 1007,
+    "title": "Account Verification Email Not Received",
+    "description": "Customer did not receive verification email after multiple resend attempts.",
+    "customer": "James Anderson",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2024-01-21"
+  },
+  {
+    "id": 1008,
+    "title": "Website Loading Slowly",
+    "description": "Customer reports that dashboard takes too long to load after login.",
+    "customer": "Sophia Thomas",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": 1009,
+    "title": "Error 500 on Checkout",
+    "description": "Internal server error appears when customer tries to complete checkout.",
+    "customer": "William Taylor",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2024-01-23"
+  },
+  {
+    "id": 1010,
+    "title": "Profile Picture Upload Failed",
+    "description": "Customer cannot upload profile picture; system shows unsupported format error.",
+    "customer": "Isabella Moore",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-01-24"
+  },
+  {
+    "id": 1011,
+    "title": "Discount Code Not Working",
+    "description": "Promo code WINTER24 does not apply discount during checkout.",
+    "customer": "Benjamin White",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-25"
+  },
+  {
+    "id": 1012,
+    "title": "Mobile App Crashing",
+    "description": "App crashes immediately after opening on Android version 13 devices.",
+    "customer": "Charlotte Harris",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2024-01-26"
+  }
+]
