@@ -1,7 +1,7 @@
 import vector1 from "../../assets/vector1.png";
 import vector2 from "../../assets/vector2.png";
 
-const Banner = ({inProgressTasks}) => {
+const Banner = ({ inProgressTasks, completedTasks }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-14 w-11/12 mx-auto">
 
@@ -29,7 +29,7 @@ const Banner = ({inProgressTasks}) => {
         />
 
         <h2 className="text-xl z-10">Resolved</h2>
-        <p className="text-5xl font-bold z-10">0</p>
+        <p className="text-5xl font-bold z-10">{completedTasks.length}</p>
       </div>
     </div>
   );

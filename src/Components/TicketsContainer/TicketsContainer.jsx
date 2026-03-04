@@ -1,6 +1,5 @@
 import React, { use } from 'react';
 import TicketCard from '../TicketCard/TicketCard';
-import TaskStatusContainer from '../TaskStatusContainer/TaskStatusContainer';
 
 const TicketsContainer = ({ promiseTickets, handleAddTask }) => {
   const tickets = use(promiseTickets);
