@@ -6,12 +6,9 @@ const Footer = () => {
       <footer className="bg-black">
         <div className="w-10/12 mx-auto ">
           <div className="footer sm:footer-horizontal py-10 text-gray-200 ">
-            <nav >
+            <nav className='w-75'>
               <h6 className=" text-xl">CS — Ticket System</h6>
-              <a className="link link-hover">Branding</a>
-              <a className="link link-hover">Design</a>
-              <a className="link link-hover">Marketing</a>
-              <a className="link link-hover">Advertisement</a>
+              <p>A smart ticket management system designed to streamline customer support, track progress efficiently, and resolve issues faster with real-time task updates.</p>
             </nav>
             <nav >
               <h6 className=" text-xl">Company</h6>

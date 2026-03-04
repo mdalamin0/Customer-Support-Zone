@@ -3,7 +3,7 @@
     "id": 1001,
     "title": "Login Issues - Can't Access Account",
     "description": "Customer is unable to log in to their account despite resetting the password multiple times.",
-    "customer": "John Smith",
+    "customer": "Dustin Henderson",
     "priority": "High",
     "status": "Open",
     "createdAt": "2024-01-15"
@@ -12,7 +12,7 @@
     "id": 1002,
     "title": "Payment Failed - Card Declined",
     "description": "Customer attempted to pay using Visa ending in 1234 but the payment keeps failing.",
-    "customer": "Sarah Johnson",
+    "customer": "Steve Harrington",
     "priority": "High",
     "status": "Open",
     "createdAt": "2024-01-16"
@@ -23,7 +23,7 @@
     "description": "Customer cannot download their January invoice from the billing section.",
     "customer": "Michael Brown",
     "priority": "Medium",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2024-01-17"
   },
   {
@@ -41,7 +41,7 @@
     "description": "Customer requested a refund 7 days ago but has not received confirmation yet.",
     "customer": "Daniel Wilson",
     "priority": "High",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2024-01-19"
   },
   {
@@ -59,7 +59,7 @@
     "description": "Customer did not receive verification email after multiple resend attempts.",
     "customer": "James Anderson",
     "priority": "Medium",
-    "status": "Resolved",
+    "status": "Open",
     "createdAt": "2024-01-21"
   },
   {
@@ -77,7 +77,7 @@
     "description": "Internal server error appears when customer tries to complete checkout.",
     "customer": "William Taylor",
     "priority": "High",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2024-01-23"
   },
   {
@@ -86,7 +86,7 @@
     "description": "Customer cannot upload profile picture; system shows unsupported format error.",
     "customer": "Isabella Moore",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "Open",
     "createdAt": "2024-01-24"
   },
   {
@@ -104,7 +104,7 @@
     "description": "App crashes immediately after opening on Android version 13 devices.",
     "customer": "Charlotte Harris",
     "priority": "High",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2024-01-26"
   }
 ]

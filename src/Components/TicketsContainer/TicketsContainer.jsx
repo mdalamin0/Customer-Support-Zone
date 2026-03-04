@@ -6,7 +6,7 @@ const TicketsContainer = ({ customerTickets, handleAddTask, taskStatus }) => {
   return (
     <div className=' md:pb-16 col-span-4'>
       <div className='text-2xl font-bold mt-16  mb-5 '>
-        <h2 >Customer Tickets</h2>
+        <h2 >Customer Tickets: {customerTickets.length}</h2>
 
       </div>
       <div className="">

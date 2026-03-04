@@ -9,13 +9,13 @@ const NavBar = () => {
           </div>
           <ul
             tabIndex="-1"
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li><a>Home</a></li>
-            <li><a>FAQ</a></li>
-            <li><a>Changelog</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Download</a></li>
-            <li><a>Contact</a></li>
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-bold">
+            <li><a className="hover:bg-transparent text-purple-700">Home</a></li>
+            <li><a className="hover:bg-transparent hover:text-purple-700">FAQ</a></li>
+            <li><a className="hover:bg-transparent hover:text-purple-700">Changelog</a></li>
+            <li><a className="hover:bg-transparent hover:text-purple-700">Blog</a></li>
+            <li><a className="hover:bg-transparent hover:text-purple-700">Download</a></li>
+            <li><a className="hover:bg-transparent hover:text-purple-700">Contact</a></li>
           </ul>
         </div>
         <a className="text-sm md:text-xl font-bold">
@@ -24,14 +24,14 @@ const NavBar = () => {
       </div>
 
       <div className="navbar-end">
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal space-x-1 font-medium ">
-            <li><a>Home</a></li>
-            <li><a>FAQ</a></li>
-            <li><a>Changelog</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Download</a></li>
-            <li><a>Contact</a></li>
+        <div className="navbar-center hidden lg:flex ">
+          <ul className="menu menu-horizontal space-x-1 font-bold">
+            <li><a className="hover:bg-transparent text-purple-700">Home</a></li>
+            <li><a className="hover:bg-transparent hover:text-purple-700">FAQ</a></li>
+            <li><a className="hover:bg-transparent hover:text-purple-700">Changelog</a></li>
+            <li><a className="hover:bg-transparent hover:text-purple-700">Blog</a></li>
+            <li><a className="hover:bg-transparent hover:text-purple-700">Download</a></li>
+            <li><a className="hover:bg-transparent hover:text-purple-700">Contact</a></li>
           </ul>
         </div>
         <button className='btn bg-linear-to-bl from-[#632EE3] to-[#9F62F2] 

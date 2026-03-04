@@ -9,13 +9,13 @@ const TicketCard = ({ ticket, handleAddTask, }) => {
       <div className='p-5 space-y-3'>
         <div className='flex justify-between items-center'>
           <h3 className='card-title'>{title}</h3>
-          <p className='bg-[#B9F8CF] rounded-full px-4 py-1 font-semibold flex items-center'><span className='badge badge-success badge-xs mr-2'></span> {status}</p>
+          <p className={`${status === "Open" ? "bg-[#B9F8CF]" : "bg-[#F8F3B9]"} rounded-full px-4 py-1 font-semibold flex items-center`}><span className={`badge badge-xs mr-2 ${status === "Open" ?  " badge-success " : "badge-warning"}`}></span> {status}</p>
         </div>
         <p className='text-gray-600'>{description}</p>
         <div className='flex justify-between items-center'>
           <div className='flex items-center space-x-4 text-gray-600'>
             <p className=''>#{id}</p>
-            <p className='text-warning'>{priority}</p>
+            <p className={`font-semibold ${priority === "High" ? "text-red-500" : priority === "Medium" ? "text-warning" : "text-green-600"} `}>{priority} Priority</p>
           </div>
           <div className='flex items-center space-x-4 text-gray-600'>
             <p className=''>{customer}</p>
