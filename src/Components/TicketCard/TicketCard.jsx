@@ -1,6 +1,6 @@
 import calenderImg from '../../assets/ri_calendar-line.png'
 
-const TicketCard = ({ ticket, handleAddTask }) => {
+const TicketCard = ({ ticket, handleAddTask, }) => {
   const { id, title, description, status, priority, customer, createdAt } = ticket;
   
 
@@ -9,7 +9,7 @@ const TicketCard = ({ ticket, handleAddTask }) => {
       <div className='p-5 space-y-3'>
         <div className='flex justify-between items-center'>
           <h3 className='card-title'>{title}</h3>
-          <p className='badge badge-success font-semibold'>{status}</p>
+          <p className='bg-[#B9F8CF] rounded-full px-4 py-1 font-semibold flex items-center'><span className='badge badge-success badge-xs mr-2'></span> {status}</p>
         </div>
         <p className='text-gray-600'>{description}</p>
         <div className='flex justify-between items-center'>

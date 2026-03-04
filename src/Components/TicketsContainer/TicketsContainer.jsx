@@ -1,8 +1,7 @@
-import React, { use } from 'react';
 import TicketCard from '../TicketCard/TicketCard';
 
-const TicketsContainer = ({ promiseTickets, handleAddTask }) => {
-  const tickets = use(promiseTickets);
+const TicketsContainer = ({ customerTickets, handleAddTask, taskStatus }) => {
+  // const tickets = use(promiseTickets);
 
   return (
     <div className=' md:pb-16 col-span-4'>
@@ -13,10 +12,11 @@ const TicketsContainer = ({ promiseTickets, handleAddTask }) => {
       <div className="">
         <div className=" grid grid-cols-1 md:grid-cols-2 gap-4">
           {
-            tickets.map(ticket => <TicketCard
+            customerTickets.map(ticket => <TicketCard
               key={ticket.id}
               ticket={ticket}
               handleAddTask={handleAddTask}
+              taskStatus={taskStatus}
             ></TicketCard>)
           }
         </div>
