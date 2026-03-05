@@ -11,7 +11,7 @@ const TaskStatusContainer = ({ inProgressTasks, completedTasks, handleCompletedT
       <div className='space-y-4'>
 
         {inProgressTasks.length === 0 ? (
-          <p className='text-gray-600'>Select a ticket to add to Task Status</p>) :
+          <p className='text-gray-600 dark:text-gray-300'>Select a ticket to add to Task Status</p>) :
           (inProgressTasks.map(task => <TaskStatusCard
             key={task.id}
             task={task}
@@ -23,7 +23,7 @@ const TaskStatusContainer = ({ inProgressTasks, completedTasks, handleCompletedT
       <div className='space-y-4'>
 
         {completedTasks.length === 0 ? (
-          <p className='text-gray-600'>No resolved task yet</p>) :
+          <p className='text-gray-600 dark:text-gray-300'>No resolved task yet</p>) :
           (completedTasks.map(task => <TaskCompletedCard
             key={task.id}
             task={task}
