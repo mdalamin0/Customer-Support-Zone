@@ -20,7 +20,7 @@ const TaskStatusContainer = ({ inProgressTasks, completedTasks, handleCompletedT
 
       </div>
       <h2 className='text-2xl font-bold text-left mt-6  mb-5'>Resolved Task</h2>
-      <div className='space-y-4'>
+      <div className='space-y-4 mb-10'>
 
         {completedTasks.length === 0 ? (
           <p className='text-gray-600 dark:text-gray-300'>No resolved task yet</p>) :
