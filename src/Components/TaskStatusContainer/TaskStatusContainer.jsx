@@ -19,7 +19,7 @@ const TaskStatusContainer = ({ inProgressTasks, completedTasks, handleCompletedT
           ></TaskStatusCard>))}
 
       </div>
-      <h2 className='text-2xl font-bold text-left md:mt-6  mb-5'>Resolved Task</h2>
+      <h2 className='text-2xl font-bold text-left mt-6  mb-5'>Resolved Task</h2>
       <div className='space-y-4'>
 
         {completedTasks.length === 0 ? (
