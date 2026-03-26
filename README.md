@@ -1,3 +1,24 @@
+Project Name: Customer Support Zone
+
+Used technology: 
+React.js, 
+JavaScript, 
+tailwind CSS, 
+Daisyui.
+
+Features:
+• Displayed all customer support tickets in a card-based UI layout
+• Implemented ticket progress tracking system using dynamic banners
+• Clicking on a ticket card moves the ticket to the "In Progress" section
+• Sidebar status panel shows real-time ticket status updates
+• Tickets can be marked as "Completed", which automatically moves them to the "Resolved" section
+• Progress banner dynamically updates the number of tickets currently in progress
+• Resolved banner displays the total number of completed tickets
+• Built using reusable React components with responsive design for different screen sizes
+
+Live link: https://customer-support-zone-rosy-two.vercel.app/
+Code link: https://github.com/mdalamin0/Customer-Support-Zone
+
 1. What is JSX, and why is it used?
 JSX হলো JavaScript XML. JSX জাভাস্ক্রিপ্টের এমন একটি সিনট্যাক্স যা আমাদের জাভাস্ক্রিপ্টের ভেতর Html এর মতো করে কোড লেখার সুযোগ দেয় যা দেখতে Html এর মতো হলেও আসলে Html না, React এটাকে জাভাস্ক্রিপ্টে কনভার্ট করে দেয়। 
 JSX ব্যাবহার করা হয় কারণ এতে আমরা সহজেই Html এর  মতো করে কোড লিখতে পারি এবং সহজে বুঝা যায়, সহজে Maintain করা যায়।
@@ -15,3 +36,4 @@ React এ State সাধারণ Parent কম্পোনেন্ট এ র
 
 5. How is event handling done in React?
 React এ event handling function  সাধারণত parent কম্পোনেন্ট এ করা হয় যেখানে স্টেট থাকে,,সেখান থেকে props আকারে পাঠিয়ে child কম্পোনেন্ট থেকে handler function কে কল করে সেখান থেকে ডাটা পাঠিয়ে স্টেট আপডেট করে দেওয়া হয়।
+
