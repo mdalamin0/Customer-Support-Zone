@@ -5,7 +5,7 @@ import Banner from './Components/Banner/Banner'
 import NavBar from './Components/NavBar/NavBar'
 import TicketsContainer from './Components/TicketsContainer/TicketsContainer'
 import TaskStatusContainer from './Components/TaskStatusContainer/TaskStatusContainer'
-import Footer from './Components/Footer/Footer'
+
 
 
 const fetchCustomerTickets = async () => {
@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className='font-sor'>
-      <NavBar></NavBar>
+      {/* <NavBar></NavBar> */}
       <div className='bg-base-200 border-t-2 border-gray-100'>
         <Banner
           inProgressTasks={inProgressTasks}
@@ -74,7 +74,6 @@ function App() {
           ></TaskStatusContainer>
         </div>
       </div>
-      <Footer></Footer>
       <ToastContainer />
     </div>
   )

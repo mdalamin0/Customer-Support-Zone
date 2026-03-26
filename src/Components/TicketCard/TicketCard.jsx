@@ -9,7 +9,7 @@ const TicketCard = ({ ticket, handleAddTask, }) => {
       <div className='p-5 space-y-3'>
         <div className='flex justify-between items-center'>
           <h3 className='card-title w-[290px] text-sm md:text-[18px] dark:text-black'>{title}</h3>
-          <p className={`dark:text-black ${status === "Open" ? "bg-[#B9F8CF]" : "bg-[#F8F3B9]"} rounded-full px-3 md:px-4  text-[10px] md:text-sm py-2 font-semibold flex items-center`}><span className={`badge badge-xs mr-2 ${status === "Open" ?  " badge-success " : "badge-warning"}`}></span> {status}</p>
+          <p className={`dark:text-black whitespace-nowrap ${status === "Open" ? "bg-[#B9F8CF]" : "bg-[#F8F3B9]"} rounded-full px-3 md:px-4  text-[10px] md:text-sm py-2 font-semibold flex items-center`}><span className={`badge badge-xs mr-2 ${status === "Open" ?  " badge-success " : "badge-warning"}`}></span> {status}</p>
         </div>
         <p className='text-gray-600 text-xs md:text-sm'>{shortedDes}</p>
         <div className='flex flex-col lg:flex-row lg:justify-between items-center'>
